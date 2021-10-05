@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 const Section = styled.div`
   display: flex;
-
+  min-height: 50vh;
   flex: 1 1 0px;
   padding: 1em;
   align-items: center;

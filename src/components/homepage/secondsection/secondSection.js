@@ -1,6 +1,6 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { graphql, useStaticQuery } from "gatsby"
 import {
   SectionBase,
   InfoBox,
@@ -31,6 +31,7 @@ const SecondSection = () => {
           imgStyle={{
             objectFit: "contain",
           }}
+          placeholder="blurred"
           formats={["auto", "webp", "avif"]}
         ></StaticImage>
         <StaticImage
@@ -40,6 +41,7 @@ const SecondSection = () => {
           imgStyle={{
             objectFit: "contain",
           }}
+          placeholder="blurred"
           formats={["auto", "webp", "avif"]}
         ></StaticImage>
       </ImageBox>

@@ -7,7 +7,7 @@ export const SectionBase = styled.div`
     #4e9fff 0%,
     #0b3a71 100%
   );
-  height: 70vh;
+  height: 100vh;
   display: flex;
   padding: 1.5rem;
   justify-content: space-evenly;

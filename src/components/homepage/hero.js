@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import img from "../../images/hero-bg.jpg"
 const HeroBase = styled.div`
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   position: relative;
   flex-direction: column;

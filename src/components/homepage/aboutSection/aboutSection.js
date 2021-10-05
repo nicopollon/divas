@@ -11,6 +11,7 @@ const AboutSection = () => {
         imgStyle={{
           objectFit: "contain",
         }}
+        placeholder="blurred"
       ></StaticImage>
 
       <Container>

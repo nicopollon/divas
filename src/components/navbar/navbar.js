@@ -3,7 +3,7 @@ import styled from "styled-components"
 import NavbarLinks from "./navBarLinks"
 
 const Navigation = styled.nav`
-  height: 10vh;
+  height: 90px;
   display: flex;
   background-color: #041c2c;
   position: relative;

@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 const Section = styled.div`
   background-color: #041c2c;
-  height: 45vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -3,7 +3,7 @@ import styled from "styled-components"
 import PropTypes from "prop-types"
 
 const RowContainer = styled.div`
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
