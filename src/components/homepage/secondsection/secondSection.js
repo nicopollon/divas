@@ -25,7 +25,7 @@ const SecondSection = () => {
       </InfoBox>
       <ImageBox>
         <StaticImage
-          src="../images/cabin.png"
+          src="../../../images/cabin.png"
           alt="Luxury divas cabin"
           quality={95}
           imgStyle={{
@@ -34,7 +34,7 @@ const SecondSection = () => {
           formats={["auto", "webp", "avif"]}
         ></StaticImage>
         <StaticImage
-          src="../images/cabin.png"
+          src="../../../images/cabin.png"
           alt="Luxury divas cabin"
           quality={95}
           imgStyle={{

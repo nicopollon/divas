@@ -1,5 +1,4 @@
 import * as React from "react"
-import styled from "styled-components"
 import { StaticImage } from "gatsby-plugin-image"
 import { Section, Container, PreTitle } from "./aboutComponents.js"
 
@@ -7,7 +6,7 @@ const AboutSection = () => {
   return (
     <Section>
       <StaticImage
-        src="../../images/movilift.png"
+        src="../../../images/movilift.png"
         alt="Our company building "
         imgStyle={{
           objectFit: "contain",

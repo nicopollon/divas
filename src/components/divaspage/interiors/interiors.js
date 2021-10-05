@@ -8,7 +8,7 @@ const Interior = () => {
       <TextBox>
         <Title>Designer Interiors</Title>
         <Subtitle>
-          Explore our custom solutions for your divas lift, we collaborate with
+          Explore our custom solutions for your divas lift ,we collaborate with
           local artisans to provide the premium look for your home elevator.
         </Subtitle>
       </TextBox>
