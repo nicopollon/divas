@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
-import Logo from "./Logo"
+import Logo from "./logo"
 
 const NavItem = styled(Link)`
   text-decoration: none;
@@ -63,10 +63,10 @@ const NavbarLinks = () => {
   return (
     <>
       <NavItem to="/divas">Divas</NavItem>
-      <NavItem to="/404">Services</NavItem>
+      <NavItem to="/divas">Divas</NavItem>
       <Logo />
-      <NavItem to="/">Gallery</NavItem>
-      <NavItem to="/404">Contact</NavItem>
+      <NavItem to="/divas">Divas</NavItem>
+      <NavItem to="/divas">Divas</NavItem>
     </>
   )
 }
