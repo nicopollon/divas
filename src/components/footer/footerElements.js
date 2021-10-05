@@ -6,10 +6,16 @@ const Foot = styled.footer`
   padding: 1rem;
   color: #fff;
   background-color: #1a5090;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 const FooterColumn = styled.div`
-  width: 30%;
+  width: 50%;
   padding: 1rem;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 const FooterList = styled.ul`
   list-style: none;

@@ -6,6 +6,9 @@ const InteriorBase = styled.div`
   background: linear-gradient(0deg, #041c2c, #041c2c),
     radial-gradient(47.41% 47.41% at 50% 52.59%, #4e9fff 0%, #0b3a71 100%);
   display: flex;
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
 `
 const TextBox = styled.div`
   display: flex;

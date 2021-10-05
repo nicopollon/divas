@@ -7,12 +7,17 @@ const HeroSection = styled.div`
   background-color: #1a5090;
   align-items: center;
   justify-content: space-evenly;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 
 const TextBox = styled.div`
   display: flex;
   flex-direction: column;
   color: #fff;
+  padding: 1rem;
 `
 
 const Subtitle = styled.h4`
