@@ -1,0 +1,22 @@
+.endpage-section {
+  min-height: 60vh;
+  width: 100%;
+  background-color: #041c2c;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.endpage-section > h2 {
+  font-size: 2.5rem;
+  margin-bottom: 4px;
+}
+.endpage-section > h3 {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.buttons-row {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}

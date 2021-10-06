@@ -8,3 +8,28 @@ h2 {
   font-family: "Prata", serif;
   font-size: 1.5rem;
 }
+.email-input {
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.email-container {
+  display: flex;
+  padding: 10px 30px;
+  height: 75px;
+  width: 100%;
+  background-color: transparent;
+  justify-content: space-evenly;
+}
+.email-submit {
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+  border: none;
+  font-size: 2rem;
+}
+.email-submit :hover {
+  transform: scale(1.2);
+}

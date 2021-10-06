@@ -19,9 +19,10 @@ const SecondSection = () => {
         <Separator />
 
         <p>This luxury line is perfect for buildings with stylish design</p>
-        <CtaBtn>
-          <NavLink to="/">Learn more</NavLink>
-        </CtaBtn>
+        <NavLink to="/">
+          {" "}
+          <CtaBtn>Learn more</CtaBtn>
+        </NavLink>
       </InfoBox>
       <ImageBox>
         <StaticImage

@@ -25,5 +25,8 @@ const FooterList = styled.ul`
 `
 const FootLink = styled(Link)`
   color: #fff;
+  &:hover {
+    text-decoration: underline;
+  }
 `
 export { Foot, FooterColumn, FooterList, FootLink }

@@ -1,14 +1,14 @@
 import styled from "styled-components"
-
+import url from "../../../images/divascabin.jpeg"
 const HeroSection = styled.div`
   width: 100%;
   height: 90vh;
   display: flex;
-  background-color: #1a5090;
+  background: #1a5090;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 
-  @media (max-width: 768px) {
+  @media (max-width: 960px) {
     flex-direction: column;
   }
 `
@@ -18,6 +18,11 @@ const TextBox = styled.div`
   flex-direction: column;
   color: #fff;
   padding: 1rem;
+  width: 60%;
+  @media (max-width: 960px) {
+    justify-content: center;
+    height: 100%;
+  }
 `
 
 const Subtitle = styled.h4`

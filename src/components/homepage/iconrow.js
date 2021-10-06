@@ -1,7 +1,10 @@
 import * as React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
-
+import { FaAccessibleIcon } from "react-icons/fa"
+import ItalySVG from "../../svg/italy.svg"
+import CeSVG from "../../svg/ce.svg"
+import "./iconrow.css"
 const RowContainer = styled.div`
   width: 100%;
   display: flex;
@@ -9,7 +12,7 @@ const RowContainer = styled.div`
   align-items: center;
   background-color: #041c2c;
 `
-const ColumnIcon = styled.div`
+export const ColumnIcon = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,11 +20,12 @@ const ColumnIcon = styled.div`
   padding: 1em;
 `
 
-const CircleIcon = styled.div`
-  width: 100px;
-  height: 100px;
+export const CircleIcon = styled.div`
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
   background-color: #fff;
+  color: #1a5090;
   display: flex;
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
@@ -29,23 +33,26 @@ const CircleIcon = styled.div`
 `
 const IconText = styled.p`
   color: white;
+  margin-bottom: 0;
 `
 const IconRow = ({ children }) => {
   return (
     <RowContainer>
       <ColumnIcon>
-        <CircleIcon children={"sad"}></CircleIcon>
+        <CircleIcon children={<ItalySVG className="icon" />}></CircleIcon>
 
         <IconText>Made in Italy</IconText>
       </ColumnIcon>
 
       <ColumnIcon>
-        <CircleIcon children={children}></CircleIcon>
+        <CircleIcon
+          children={<FaAccessibleIcon className="icon" />}
+        ></CircleIcon>
         <IconText>Accessibility</IconText>
       </ColumnIcon>
 
       <ColumnIcon>
-        <CircleIcon children={children}></CircleIcon>
+        <CircleIcon children={<CeSVG className="icon" />}></CircleIcon>
         <IconText>European Certified</IconText>
       </ColumnIcon>
     </RowContainer>

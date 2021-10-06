@@ -2,7 +2,8 @@ import styled from "styled-components"
 
 const Section = styled.div`
   background-color: #041c2c;
-  height: 50vh;
+  min-height: 50vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,6 +13,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 50%;
   color: #fff;
 `
 

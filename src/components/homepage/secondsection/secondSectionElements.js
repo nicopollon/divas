@@ -15,6 +15,7 @@ export const SectionBase = styled.div`
   @media (max-width: 768px) {
     flex-direction: column-reverse;
     align-items: center;
+    height: auto;
   }
 `
 export const InfoBox = styled.div`
@@ -42,11 +43,14 @@ export const Separator = styled.div`
   width: 100%;
   height: 2px;
   background: #a3c8d5;
+  margin: 1em;
 `
 
 export const CtaBtn = styled.button`
+  cursor: pointer;
   background-color: #a3c8d5;
-  width: 85%;
+  width: 100%;
+  padding: 10px 30px;
   text-decoration: none;
   border: 3px solid #ffffff;
 `
