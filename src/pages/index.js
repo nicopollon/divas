@@ -10,7 +10,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     <Seo title="Home" />
     <HeroHome></HeroHome>
-    <IconRow></IconRow>
+
     <SecondSection></SecondSection>
     <AboutSection></AboutSection>
     <PageEnd></PageEnd>

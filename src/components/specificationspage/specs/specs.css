@@ -12,6 +12,7 @@
   color: white;
   font-size: 1.3rem;
   line-height: 2;
+  margin: 0;
 }
 .hydraulic-specs {
   background-color: #041c2c;
@@ -26,13 +27,18 @@
 .specs {
   display: flex;
 }
+@media (max-width: 768px) {
+  .specs {
+    flex-direction: column;
+  }
+}
 
 .feature-section {
   min-height: 50vh;
   width: 100%;
   background-color: #fff;
   padding: 1rem;
-  border-bottom: 54px solid #041c2c;
+  border-bottom: 30px solid #041c2c;
 }
 .feature-title {
   color: #041c2c;
@@ -44,4 +50,5 @@
   color: #000;
   font-size: 1.1rem;
   line-height: 2;
+  margin: 0;
 }

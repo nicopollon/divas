@@ -67,7 +67,7 @@ const NavbarLinks = () => {
 
       <NavItem to="/divas">Design</NavItem>
 
-      <NavItem to="/divas">Inquiry</NavItem>
+      <NavItem to="/contact">Inquiry</NavItem>
     </>
   )
 }

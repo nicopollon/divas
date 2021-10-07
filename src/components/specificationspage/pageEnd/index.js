@@ -9,10 +9,11 @@ const Button = styled.button`
   border-radius: 8px;
   cursor: pointer;
   font-size: 1.2rem;
+  margin: 0 auto;
   color: ${props => (props.primary ? "white" : "white")};
   background: ${props => (props.primary ? "#1a5090" : "transparent")};
   &:hover {
-    transform: scale(1.1, 1.1);
+    transform: translateY(-5px);
 
     transition: transform 0.5s ease-out;
   }
@@ -30,7 +31,7 @@ const EndPage = () => {
         </a>
         <Link to="/divas">
           <Button primary>Contact</Button>
-        </Link>{" "}
+        </Link>
       </div>
     </div>
   )

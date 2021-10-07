@@ -13,13 +13,12 @@ const PageEnd = () => {
 
   const sendEmail = e => {
     e.preventDefault()
-    e.target.reset()
     changeFeedbackText("Submitting ...")
     emailjs
       .sendForm(
         "service_nqylmmo",
         "template_iyeslop",
-        form.current,
+        e.target,
         "user_NCdjJOqcFzG6UK9SPjpvy"
       )
       .then(
@@ -32,7 +31,9 @@ const PageEnd = () => {
           changeFeedbackText("Something went wrong please retry")
         }
       )
+    e.target.reset()
   }
+
   return (
     <Section>
       <Container>

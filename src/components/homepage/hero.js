@@ -41,7 +41,10 @@ const HeroText = styled.h1`
   color: white;
 
   font-weight: 600;
-  font-size: 70px;
+  font-size: 4rem;
+  @media (max-width: 768px) {
+    font-size: 3rem;
+  }
 `
 
 const HeroHome = () => {

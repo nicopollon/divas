@@ -5,6 +5,7 @@
   color: #fff;
   display: flex;
   flex-direction: column;
+  padding: 1rem;
   align-items: center;
 }
 .endpage-section > h2 {
@@ -19,4 +20,9 @@
   display: flex;
   width: 50%;
   justify-content: space-evenly;
+}
+@media (max-width: 768px) {
+  .buttons-row {
+    width: 100%;
+  }
 }

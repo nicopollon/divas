@@ -17,9 +17,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <h1 className="hero-title">Divas Specifications</h1>
-      <p className="hero-subtitle">
-        Learn about the in-n-outs of divas <br /> or
-      </p>
+      <p className="hero-subtitle">Learn about the in-n-outs of divas</p>
       <Button> Get an inquiry</Button>
     </div>
   )
