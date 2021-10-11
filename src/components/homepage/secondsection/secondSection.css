@@ -1,0 +1,13 @@
+.image {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+  flex: 1;
+  padding: 1rem;
+  margin: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .image {
+    flex: 2;
+  }
+}

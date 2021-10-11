@@ -15,6 +15,7 @@ const IconSection = styled.div`
 `
 export const ColumnIcon = styled.div`
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -31,9 +32,6 @@ export const CircleIcon = styled.div`
   align-items: baseline;
 
   @media (max-width: 768px) {
-    width: 50px;
-    height: 50px;
-    align-items: baseline;
   }
 `
 const IconText = styled.p`

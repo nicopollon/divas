@@ -1,14 +1,13 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { graphql, useStaticQuery } from "gatsby"
 import {
   SectionBase,
   InfoBox,
   Separator,
   CtaBtn,
-  ImageBox,
   NavLink,
 } from "./secondSectionElements.js"
+import "./secondSection.css"
 const SecondSection = () => {
   return (
     <SectionBase>
@@ -24,28 +23,16 @@ const SecondSection = () => {
           <CtaBtn>Learn more</CtaBtn>
         </NavLink>
       </InfoBox>
-      <ImageBox>
-        <StaticImage
-          src="../../../images/cabin.png"
-          alt="Luxury divas cabin"
-          quality={95}
-          imgStyle={{
-            objectFit: "contain",
-          }}
-          placeholder="blurred"
-          formats={["auto", "webp", "avif"]}
-        ></StaticImage>
-        <StaticImage
-          src="../../../images/cabin.png"
-          alt="Luxury divas cabin"
-          quality={95}
-          imgStyle={{
-            objectFit: "contain",
-          }}
-          placeholder="blurred"
-          formats={["auto", "webp", "avif"]}
-        ></StaticImage>
-      </ImageBox>
+
+      <StaticImage
+        src="../../../images/divas-inside.jpeg"
+        alt="Luxury divas cabin"
+        quality={95}
+        objectFit="contain"
+        className="image"
+        placeholder="blurred"
+        formats={["auto", "webp", "avif"]}
+      ></StaticImage>
     </SectionBase>
   )
 }

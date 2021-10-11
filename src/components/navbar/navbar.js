@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import styled from "styled-components"
+import Logo from "./logo"
 import NavbarLinks from "./navBarLinks"
 
 const Navigation = styled.nav`
@@ -85,6 +86,7 @@ const Navbar = () => {
 
   return (
     <Navigation>
+      <Logo />
       <Toggle
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}

@@ -1,8 +1,8 @@
 import styled from "styled-components"
-import url from "../../../images/divascabin.jpeg"
+import imgurl from "../../../images/divascabin.jpeg"
 const HeroSection = styled.div`
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   background: #1a5090;
   align-items: center;
@@ -10,6 +10,14 @@ const HeroSection = styled.div`
 
   @media (max-width: 960px) {
     flex-direction: column;
+    background: linear-gradient(
+        rgba(26, 80, 144, 0.69),
+        rgba(26, 80, 144, 0.69)
+      ),
+      url(${imgurl});
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 `
 
@@ -18,10 +26,10 @@ const TextBox = styled.div`
   flex-direction: column;
   color: #fff;
   padding: 1rem;
-  width: 60%;
+  flex: 1;
+  text-align: start;
   @media (max-width: 960px) {
     justify-content: center;
-    height: 100%;
   }
 `
 

@@ -62,11 +62,8 @@ const NavItem = styled(Link)`
 const NavbarLinks = () => {
   return (
     <>
-      <Logo />
       <NavItem to="/specifications">Specifications</NavItem>
-
       <NavItem to="/divas">Design</NavItem>
-
       <NavItem to="/contact">Inquiry</NavItem>
     </>
   )

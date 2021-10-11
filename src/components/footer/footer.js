@@ -26,7 +26,7 @@ const Footer = () => {
             <FootLink to="/divas">Design</FootLink>
           </li>
           <li>
-            <FootLink to="/">Inquiry</FootLink>
+            <FootLink to="/contact">Inquiry</FootLink>
           </li>
         </FooterList>
       </FooterColumn>

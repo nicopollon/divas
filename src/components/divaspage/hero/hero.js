@@ -2,14 +2,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import React from "react"
 import "./hero.css"
-import {
-  HeroSection,
-  TextBox,
-  Subtitle,
-  Title,
-  Specs,
-  SpecsTitle,
-} from "./heroElements"
+import { HeroSection, TextBox, Subtitle, Title } from "./heroElements"
 
 const Hero = () => {
   return (
@@ -23,7 +16,6 @@ const Hero = () => {
       <TextBox>
         <Subtitle>For building with style</Subtitle>
         <Title>Luxury Divas</Title>
-        <SpecsTitle>Specifcations:</SpecsTitle>
       </TextBox>
     </HeroSection>
   )
