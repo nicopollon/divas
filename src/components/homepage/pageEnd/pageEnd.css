@@ -1,34 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 
-h1 {
-  font-family: "Prata", serif;
-  font-size: 1.5rem;
-}
-h2 {
-  font-family: "Prata", serif;
-  font-size: 1.5rem;
-}
 .email-input {
   background-color: transparent;
   width: 100%;
   border: 1px solid #fff;
+  padding: 14px 24px;
   color: #fff;
 }
 .email-container {
-  display: flex;
-  padding: 10px 30px;
-  height: 75px;
-  width: 100%;
-  background-color: transparent;
-  justify-content: space-evenly;
+  max-width: 500px;
 }
 .email-submit {
   background-color: transparent;
   color: #fff;
   cursor: pointer;
-  margin-left: 10px;
   border: none;
-  font-size: 2rem;
+  font-size: 1.2rem;
+  background-color: #1e6091;
+  margin-top: 24px;
+  width: 100%;
+  padding: 14px 24px;
+  color: #fff;
 }
 .email-submit :hover {
   transform: scale(1.2);

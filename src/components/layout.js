@@ -10,7 +10,6 @@ import PropTypes from "prop-types"
 import "./layout.css"
 import Navbar from "./navbar/navbar"
 import Footer from "./footer/footer"
-import "@fontsource/montserrat"
 const Layout = ({ children }) => {
   return (
     <>

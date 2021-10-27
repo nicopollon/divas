@@ -1,38 +1,26 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 import {
   SectionBase,
   InfoBox,
-  Separator,
-  CtaBtn,
+  Title,
   NavLink,
+  PillLabel,
 } from "./secondSectionElements.js"
 import "./secondSection.css"
 const SecondSection = () => {
   return (
     <SectionBase>
       <InfoBox>
-        <p>Penthouse and Villas</p>
-        <h2>Luxury Divas</h2>
+        <PillLabel>Specifications</PillLabel>
+        <Title>Divas for your home</Title>
 
-        <Separator />
-
-        <p>This luxury line is perfect for buildings with stylish design</p>
-        <NavLink to="/">
-          {" "}
-          <CtaBtn>Learn more</CtaBtn>
-        </NavLink>
+        <p>
+          Learn about the different standard solutions we provide for your home
+          lift, doesn't fit? <br />
+          Contact us to get a bespoke solution
+        </p>
+        <NavLink to="/specifications"> Learn Specs →</NavLink>
       </InfoBox>
-
-      <StaticImage
-        src="../../../images/divas-inside.jpeg"
-        alt="Luxury divas cabin"
-        quality={95}
-        objectFit="contain"
-        className="image"
-        placeholder="blurred"
-        formats={["auto", "webp", "avif"]}
-      ></StaticImage>
     </SectionBase>
   )
 }

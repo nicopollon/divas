@@ -2,67 +2,43 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 export const SectionBase = styled.div`
-  /* background: radial-gradient(
-    47.41% 47.41% at 50% 52.59%,
-    #4e9fff 0%,
-    #0b3a71 100%
-  ); */
   display: flex;
 
-  //padding: 1.5rem;
-  height: 100vh;
-  justify-content: space-between;
-  align-items: stretch;
+  justify-content: start;
+  align-items: flex-start;
   @media (max-width: 768px) {
     flex-direction: column-reverse;
-    align-items: center;
+    align-items: flex-start;
   }
 `
 export const InfoBox = styled.div`
-  background: radial-gradient(
-      50% 50% at 50% 50%,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(129, 129, 129, 0.11) 100%
-    ),
-    #041c2c;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  color: #fff;
-  text-align: center;
-  margin: 1rem;
-  display: flex;
-  flex: 1;
-  padding: 1rem;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  @media (max-width: 768px) {
-    width: 100%;
-  }
+  padding: 60px 24px;
 `
-export const Separator = styled.div`
-  border: 0;
-  width: 100%;
-  height: 2px;
-  background: #a3c8d5;
-  margin: 1rem;
+export const PillLabel = styled.div`
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #76c893;
+  border-radius: 100px;
+  font-weight: 700;
+  width: fit-content;
+  color: #fff;
+  padding: 6px 16px;
+  margin-bottom: 24px;
 `
 
-export const CtaBtn = styled.button`
-  cursor: pointer;
-  background-color: #a3c8d5;
-  width: 100%;
-  padding: 10px 30px;
-  text-decoration: none;
-  border: 3px solid #ffffff;
-  transition: 0.2s ease-out;
-  &:hover {
-    background-color: #ffffff;
-    color: #041c2c;
-    border: 3px solid #a3c8d5;
-  }
+export const Title = styled.div`
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 2rem;
+  margin-bottom: 20px;
 `
+
 export const NavLink = styled(Link)`
   text-decoration: none;
-  color: #000;
-  font-size: 1.5rem;
+  font-weight: 700;
+  color: #76c893;
+  font-size: 1.2rem;
+  &:hover {
+    text-decoration: underline;
+  }
 `

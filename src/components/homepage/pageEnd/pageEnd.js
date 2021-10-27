@@ -47,7 +47,7 @@ const PageEnd = () => {
             required
           ></input>
           <button className="email-submit" type="submit" value="Send">
-            <AiOutlineRight className="submit-icon" />
+            Submit
           </button>
         </form>
         <p>{feedbackText}</p>
